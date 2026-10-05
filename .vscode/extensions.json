@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "naumovs.color-highlight",
+    "dracula-theme.theme-dracula",
+    "ecmel.vscode-html-css",
+    "oderwat.indent-rainbow",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "ritwickdey.LiveServer",
+    "PKief.material-icon-theme",
+    "esbenp.prettier-vscode"
+  ]
+}

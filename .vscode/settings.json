@@ -1,0 +1,73 @@
+{
+    // ============================
+    // EDITOR
+    // ============================
+
+    // 4 espaços para cada nível
+    "editor.tabSize": 4,
+
+    // Usa espaços em vez de TAB
+    "editor.insertSpaces": true,
+
+    // Quebra linhas muito longas
+    "editor.wordWrap": "on",
+
+    // Salva automaticamente após pequeno atraso
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    // Formata automaticamente ao salvar
+    "editor.formatOnSave": true,
+
+    // ============================
+    // PRETTIER
+    // ============================
+
+    // Define o Prettier como formatador padrão
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    // HTML
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    // CSS
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    // JavaScript
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    // ============================
+    // HTML / EMMET
+    // ============================
+
+    // Ativa o Emmet para HTML
+    "emmet.includeLanguages": {
+        "html": "html"
+    },
+
+    // ============================
+    // LIVE SERVER
+    // ============================
+
+    // Não mostra a mensagem informativa
+    // do Live Server toda vez que iniciar
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    // ============================
+    // APARÊNCIA
+    // ============================
+
+    // Tema Dracula
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+
+    // Ícones do Material Icon Theme
+    "workbench.iconTheme": "material-icon-theme"
+}
