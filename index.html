@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Brazuca Ganes</title>
+        <link rel="stylesheet" href="/css/style.css" />
     </head>
     <body>
         <header class="inicio">
@@ -22,47 +23,105 @@
             </nav>
         </header>
         <main class="principal">
-            <section id="jogos_recentes">
-                <h2>Jogos Recentes</h2>
-                <article>
-                    <figure class="figura">
-                        <img
-                            src="assets/image/spa.png"
-                            alt="Capa do jogo"
-                            width="400"
-                            height="300"
-                        />
-                        <h3>Super Paulista Adventures</h3>
-                        <figcaption class="desc_figura">
-                            Um jogo de plataforma onde você se aventura em São Paulo coletando
-                            moedas para comprar e aprimorar sua casa propria!
-                        </figcaption>
-                    </figure>
-                </article>
+            <section class="jogos" aria-labelledby="titulo_jogos">
+                <h2 class="titulo_jogos">Jogos Recentes</h2>
+                <div class="grid_jogos">
+                    <article class="card_jogo">
+                        <figure>
+                            <img src="assets/image/spa.png" alt="Capa do jogo" />
+                            <h3>Super Paulista Adventures</h3>
+                            <figcaption class="genero_jogo">#Ação #Aventura</figcaption>
+                            <p class="desc_jogo">
+                                Um jogo de plataforma onde você se aventura em São Paulo coletando
+                                moedas para comprar e aprimorar sua casa propria!
+                            </p>
+                        </figure>
+                    </article>
+                    <article class="card_jogo">
+                        <figure>
+                            <img src="assets/image/Frogs.png" alt="Capa do jogo" />
+                            <h3>Frog's Revenge</h3>
+                            <figcaption class="genero_jogo">#Aventura #Parodia</figcaption>
+                            <p class="desc_jogo">
+                                Depois de tanto sofrer para os motoristas imprudentes, você
+                                finalmente vai ter sua vingança!
+                            </p>
+                        </figure>
+                    </article>
+                    <article class="card_jogo">
+                        <figure>
+                            <img src="assets/image/clown.png" alt="Capa do jogo" />
+                            <h3>The Clown fish Ascension</h3>
+                            <figcaption class="genero_jogo">#Ação #Aventura</figcaption>
+                            <p class="desc_jogo">
+                                Ascenda de um pequeno peixe a uma grande ameaça!
+                            </p>
+                        </figure>
+                    </article>
+                    <article class="card_jogo">
+                        <figure>
+                            <img src="assets/image/notmydad.png" alt="Capa do jogo" />
+                            <h3>Não é o meu Pai</h3>
+                            <figcaption class="genero_jogo">#Terror #Misterio</figcaption>
+                            <p class="desc_jogo">Aquilo na sala não é o meu pai!</p>
+                        </figure>
+                    </article>
+                </div>
             </section>
-            <section class="recomendado">
-                <h2>Recomendado para você</h2>
-                <article>
-                    <figure class="figura">
-                        <img
-                            src="assets/image/dcnm.png"
-                            alt="Capa do Jogo"
-                            width="400"
-                            height="300"
-                        />
-                        <h3>Dois caras em uma moto!</h3>
-                        <figcaption class="desc_figura">
-                            Um jogo de terror onde você está sendo seguido por dois caras em uma
-                            moto, mas tem algo mais sombrio atrás de você e eles tambem!
-                        </figcaption>
-                    </figure>
-                </article>
+            <section class="jogos" aria-labelledby="titulo_jogos">
+                <h2 class="titulo_jogos">Recomendado para você</h2>
+                <div class="grid_jogos">
+                    <article class="card_jogo">
+                        <figure>
+                            <img src="assets/image/dcnm.png" alt="Capa do Jogo" />
+                            <h3>Dois caras em uma moto!</h3>
+                            <figcaption class="genero_jogo">#Terror #Psicologico</figcaption>
+                            <p class="desc_jogo">
+                                Um jogo de terror onde você está sendo seguido por dois caras em uma
+                                moto, mas tem algo mais sombrio atrás de você e eles tambem!
+                            </p>
+                        </figure>
+                    </article>
+                    <article class="card_jogo">
+                        <figure>
+                            <img src="assets/image/thebrokenvow.png" alt="Capa do jogo" />
+                            <h3>O voto quebrado</h3>
+                            <figcaption class="genero_jogo">#Terror #Misterio</figcaption>
+                            <p class="desc_jogo">
+                                A minha vó está estranha, ela se transforma toda vez que fica
+                                escuro!
+                            </p>
+                        </figure>
+                    </article>
+                    <article class="card_jogo">
+                        <figure>
+                            <img src="assets/image/caixaDoMedo.png" alt="Capa do jogo" />
+                            <h3>A Caixa do Medo</h3>
+                            <figcaption class="genero_jogo">
+                                #Suspense #Terror #Psicologico
+                            </figcaption>
+                            <p class="desc_jogo">
+                                Investigue o desaparecimento de sua filha, e descubra verdades
+                                escondidas da misteriosa empresa "A CAIXA".
+                            </p>
+                        </figure>
+                    </article>
+                    <article class="card_jogo">
+                        <figure>
+                            <img src="assets/image/sapo.png" alt="Capa do jogo" />
+                            <h3>HOPPING Around The World</h3>
+                            <figcaption class="genero_jogo">#Ação #Aventura</figcaption>
+                            <p class="desc_jogo">SAPO, CARROS o que mais você precisa saber?</p>
+                        </figure>
+                    </article>
+                </div>
             </section>
         </main>
         <br />
         <footer class="rodape">
-            <h4>Projeto Integrador</h4>
-            <p>Bruno , Wisney, Jessica, Daniel e Yuri</p>
+            <h4>Projeto Integrador: Brazuka Games</h4>
+            <p>Desenvolvedores :Bruno , Wisney, Jessica, Daniel e Yuri</p>
+            <p>&copy; 2026 Brazuka Games. Todos os direitos reservados.</p>
         </footer>
     </body>
 </html>

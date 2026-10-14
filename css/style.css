@@ -1,0 +1,102 @@
+.jogos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.grid_jogos {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+.card_jogo {
+    min-width: 0;
+}
+
+.card_jogo figure {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.card_jogo img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 5 / 4;
+    object-fit: cover;
+}
+
+.card_jogo h3 {
+    margin: 12px 0 8px;
+}
+
+.card_jogo .genero_jogo {
+    color: #dd1717;
+    font-size: 0.85rem;
+}
+
+.card_jogo .desc_jogo {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.inicio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+
+    z-index: 1000;
+}
+
+.inicio h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.navecacao {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navecacao a {
+    color: white;
+    text-decoration: none;
+}
+
+.navecacao a:hover {
+    color: #ffb347;
+}
+
+body {
+    margin: 0;
+    padding-top: 85px;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 30px 20px;
+    gap: 10px;
+}
+
+.rodape p {
+    margin: 0;
+}
